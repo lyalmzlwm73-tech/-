@@ -1,0 +1,103 @@
+/* ===== Header ===== */
+header {
+    background-color: #dbe9f4;
+    color: #003366;
+    text-align: center;
+    padding: 30px;
+}
+
+/* ===== Navigation Menu ===== */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 20px 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #003366;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ff6600;
+}
+
+/* ===== About Section ===== */
+#about p {
+    font-family: Arial, sans-serif;
+    color: #333333;
+    text-align: center;
+    padding: 20px;
+}
+
+/* ===== Image Section ===== */
+#image-section img {
+    display: block;
+    margin: 20px auto;
+    width: 400px;
+    border: 3px solid #003366;
+}
+
+/* ===== Table Section ===== */
+#courses-table table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#courses-table th, #courses-table td {
+    border: 2px solid #003366;
+    padding: 10px;
+}
+
+#courses-table th {
+    background-color: #dbe9f4;
+}
+
+/* ===== Registration Form ===== */
+#registration form {
+    width: 50%;
+    margin: 20px auto;
+    text-align: left;
+}
+
+#registration input[type="text"],
+#registration input[type="email"],
+#registration input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border: 2px solid #003366;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#registration input[type="submit"] {
+    background-color: #003366;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#registration input[type="submit"]:hover {
+    background-color: #ff6600;
+}
+
+/* ===== Footer ===== */
+footer {
+    background-color: #003366;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
